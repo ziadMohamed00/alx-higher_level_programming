@@ -12,7 +12,7 @@ First import ``add_integer`` from the ``0-add_integer`` module:
 Checking for module docstring:
 
     >>> m = __import__("0-add_integer").__doc__
-    >>> len(m) > 1 
+    >>> len(m) > 1
     True
 
 Checking for function docstring:
@@ -20,12 +20,12 @@ Checking for function docstring:
     >>> f = __import__("0-add_integer").add_integer.__doc__
     >>> len(f) > 1
     True
-         
+
 Basic usage:
 
     >>> add_integer(1, 2)
     3
-    
+
 Test int argument:
 
     >>> add_integer(2)
@@ -39,7 +39,7 @@ Test int argument and check default second:
 Checking positive with negative:
 
     >>> add_integer(2, -4)
-    -2 
+    -2
 
 Checking negative with positive:
 
