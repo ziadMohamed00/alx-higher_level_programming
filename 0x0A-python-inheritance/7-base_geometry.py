@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-module with class BaseGeometry
-"""
+"""module with class BaseGeometry"""
 
 
 class BaseGeometry:
@@ -9,6 +7,7 @@ class BaseGeometry:
 
     def area(self):
         """method for calculated area"""
+
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
